@@ -5,7 +5,6 @@ CREATE TABLE IF NOT EXISTS school_schedules (
   schedule_name VARCHAR(255) NOT NULL,
   schedule_desc VARCHAR(255) NOT NULL,
   schedule_img VARCHAR(255) NOT NULL
-);
 
 INSERT INTO school_schedules (schedule_name, schedule_desc, schedule_img) VALUES
 ('Economico Sociale', 'Indirizzo Economico Sociale', 'LES.jpg'),
@@ -460,12 +459,164 @@ Targetizzazione di Interazioni Cellulare: Modulazione della glicosilazione per r
 Inibizione delle Reazioni di Glicosilazione: Sviluppo di inibitori per interferire con la glicosilazione patologica.
 Conclusione:
 Le reazioni di trasformazione degli amminoacidi e degli zuccheri giocano un ruolo cruciale nella struttura e nella funzione delle proteine e dei carboidrati. Questi processi sono essenziali nella progettazione di nuovi farmaci e terapie, permettendo di modulare l attività biologica, la selettività e la sicurezza dei trattamenti farmacologici. La comprensione di questi meccanismi è fondamentale per sviluppare strategie terapeutiche innovative e migliorare l efficacia dei farmaci esistenti. '),
-  ('5', 3, 'Domanda: Quali sono i meccanismi di azione degli enzimi e come possono essere sfruttati nella produzione di biocatalizzatori e nella sintesi di composti di interesse biotecnologico? ', 'Risposta : risposta in elaborazione '),
-  ('5', 3, 'Domanda: Come la struttura e la funzione degli acidi nucleici, come il DNA e l RNA, influenzano l espressione genica e la trasmissione delle informazioni genetiche, e quali sono le applicazioni pratiche di tali conoscenze nella biotecnologia? ', 'Risposta : risposta in elaborazione '),
-  ('5', 3, 'Domanda: Quali sono le strategie di ingegneria delle proteine e degli acidi nucleici utilizzate per modificare le proprietà e le funzioni biologiche delle biomolecole, e quali sono le implicazioni di tali modifiche per lo sviluppo di nuovi trattamenti medici e terapie genetiche?', 'Risposta : risposta in elaborazione '),
+  ('5', 3, 'Domanda: Quali sono i meccanismi di azione degli enzimi e come possono essere sfruttati nella produzione di biocatalizzatori e nella sintesi di composti di interesse biotecnologico? ', 'Risposta :I meccanismi di azione degli enzimi sono fondamentali per la catalisi di reazioni biochimiche all interno degli organismi viventi. Questi meccanismi possono essere sfruttati nella produzione di biocatalizzatori e nella sintesi di composti di interesse biotecnologico attraverso diversi approcci:
+
+Meccanismi di Azione degli Enzimi:
+Legame Substrato-Enzima:
+
+Gli enzimi interagiscono con i loro substrati attraverso siti attivi specifici, dove avviene la formazione di complessi enzima-substrato.
+Catalisi dell Attivazione del Sito Attivo:
+
+Gli enzimi modificano la conformazione del substrato per facilitare la reazione chimica, riducendo l energia di attivazione richiesta.
+Formazione di Intermedi Reattivi:
+
+Durante la reazione, gli enzimi possono formare intermedi reattivi che facilitano la conversione del substrato nei prodotti desiderati.
+Catalisi dell Attivazione di Acidi e Basi:
+
+Gli enzimi possono fornire gruppi acidi o basi per catalizzare reazioni di trasferimento di protoni.
+Sfruttamento nella Produzione di Biocatalizzatori e Sintesi di Composti Biotecnologici:
+Selezione e Ingegneria Enzimatica:
+
+Identificazione e selezione degli enzimi con attività desiderate attraverso screening di biblioteche enzimatiche o ingegneria delle proteine per migliorare le caratteristiche catalitiche.
+Ottimizzazione delle Condizioni di Reazione:
+
+Modificazione delle condizioni di pH, temperatura e concentrazione di substrato per massimizzare l efficienza della reazione catalizzata dagli enzimi.
+Produzione di Biocatalizzatori Immobilizzati:
+
+Immobilizzazione degli enzimi su supporti solidi o materiali polimerici per facilitare la separazione dei biocatalizzatori dai prodotti, consentendo un loro riutilizzo ripetuto.
+Incorporazione di Cofattori e Coenzimi:
+
+Utilizzo di cofattori e coenzimi per attivare o migliorare l attività catalitica degli enzimi, permettendo la sintesi di composti di interesse.
+Applicazioni in Sintesi Organica:
+
+Utilizzo di enzimi per catalizzare reazioni di sintesi organica che altrimenti richiederebbero condizioni di reazione più severe o l uso di catalizzatori inorganici.
+Conclusione:
+I meccanismi di azione degli enzimi forniscono la base per la produzione di biocatalizzatori e la sintesi di composti di interesse biotecnologico. Sfruttando la catalisi enzimatica, è possibile ottenere reazioni chimiche più selettive, efficienti ed ecocompatibili, con un impatto significativo su settori come la produzione di farmaci, la produzione di biocarburanti, la sintesi di molecole chimiche di valore e molto altro ancora. '),
+  ('5', 3, 'Domanda: Come la struttura e la funzione degli acidi nucleici, come il DNA e l RNA, influenzano l espressione genica e la trasmissione delle informazioni genetiche, e quali sono le applicazioni pratiche di tali conoscenze nella biotecnologia? ', 'Risposta : Gli acidi nucleici, come il DNA e l RNA, svolgono un ruolo fondamentale nell espressione genica e nella trasmissione delle informazioni genetiche. Il DNA è una molecola a doppia elica composta da due catene complementari di nucleotidi, che codifica le istruzioni genetiche per la sintesi delle proteine e per la replicazione cellulare. L RNA, invece, esiste in diverse forme, tra cui mRNA, rRNA e tRNA, ognuna con funzioni specifiche nel processo di sintesi proteica e nella regolazione genica.
+
+Ruoli chiave degli acidi nucleici:
+DNA:
+
+Struttura a Doppia Elica: La struttura a doppia elica del DNA è cruciale per la sua stabilità e per proteggere l informazione genetica all interno delle cellule.
+Codice Genetico: La sequenza di nucleotidi nel DNA determina la sequenza di amminoacidi nelle proteine, influenzando così le caratteristiche ereditarie degli organismi.
+Replicazione del DNA: Prima della divisione cellulare, il DNA è duplicato attraverso un processo chiamato replicazione, garantendo che ogni cellula figlia riceva una copia completa e identica dell informazione genetica.
+RNA:
+
+mRNA (RNA messaggero): Trasporta l informazione genetica dal DNA ai ribosomi, dove avviene la sintesi delle proteine.
+rRNA (RNA ribosomiale): Costituisce i ribosomi, che agiscono come fabbriche cellulari per la sintesi delle proteine.
+tRNA (RNA di trasferimento): Trasporta gli amminoacidi ai ribosomi durante la traduzione dell mRNA in proteine.
+Applicazioni pratiche nella biotecnologia:
+Ingegneria Genetica: Utilizzo del DNA ricombinante per introdurre nuovi geni o modificare geni esistenti negli organismi, migliorando così le caratteristiche agronomiche o industriali.
+
+Terapia Genica: Introduzione di geni corretti o modificati per trattare malattie genetiche, come il cancro o le malattie ereditarie.
+
+Diagnostica Molecolare: Utilizzo di tecniche basate sul DNA, come la PCR, per rilevare patogeni o diagnosi genetiche precise.
+
+Biologia Sintetica: Progettazione e costruzione di nuovi sistemi biologici sintetici utilizzando componenti molecolari di acidi nucleici.
+
+CRISPR-Cas9: Sistema di editing del genoma che utilizza RNA guida per modificare specificamente il DNA, promettendo applicazioni potenziali nella medicina e nell agricoltura.
+
+Conclusione:
+La comprensione della struttura e della funzione degli acidi nucleici ha rivoluzionato la biotecnologia, offrendo possibilità innovative nella diagnosi, terapia e ingegneria genetica. Queste molecole svolgono un ruolo cruciale nella trasmissione delle informazioni genetiche e nella regolazione dell espressione genica, rendendole essenziali per lo sviluppo di nuovi trattamenti medici, miglioramenti agricoli e iniziative di biologia sintetica. '),
+  ('5', 3, 'Domanda: Quali sono le strategie di ingegneria delle proteine e degli acidi nucleici utilizzate per modificare le proprietà e le funzioni biologiche delle biomolecole, e quali sono le implicazioni di tali modifiche per lo sviluppo di nuovi trattamenti medici e terapie genetiche?', 'Risposta :Le strategie di ingegneria delle proteine e degli acidi nucleici sono fondamentali per modificare le proprietà e le funzioni biologiche delle biomolecole, con implicazioni significative nello sviluppo di nuovi trattamenti medici e terapie genetiche.
+
+Ingegneria delle Proteine:
+Mutagenesi Sitio-Diretta: Consente di introdurre mutazioni specifiche per modificare le proprietà della proteina.
+
+Ingegneria Razionale: Basata sulla conoscenza della struttura proteica per migliorare le funzioni o creare nuove funzioni.
+
+Selezione in Librerie di Proteine: Utilizzo di librerie di varianti proteiche per identificare quelle con le proprietà desiderate.
+
+Fusione di Domini Proteici: Combinazione di domini proteici per creare nuove funzionalità o migliorare la solubilità.
+
+Ingegneria degli Acidi Nucleici:
+Mutagenesi del DNA: Introduzione di modifiche specifiche nel DNA per correggere mutazioni o modulare l espressione genica.
+
+Ingegneria del RNA: Modifica del RNA per migliorare la stabilità o la specificità di legame.
+
+CRISPR-Cas9 e Sistemi di Editing del Genoma: Utilizzo di sistemi basati su RNA guida per modificare specificamente il genoma.
+
+Implicazioni per lo Sviluppo di Nuovi Trattamenti Medici e Terapie Genetiche:
+Precisione Terapeutica: Permettono lo sviluppo di terapie mirate e personalizzate.
+
+Innovazioni in Biotecnologia: Sviluppo di nuovi farmaci e biomateriali.
+
+Efficienza e Sicurezza: Miglioramento delle terapie con minori effetti collaterali.
+
+Queste strategie sono cruciali per migliorare l efficacia e la sicurezza delle terapie biomolecolari, aprendo nuove opportunità nel trattamento di malattie genetiche e nella biotecnologia avanzata. '),
  
-  ('5', 7, 'Domanda: Quali sono i principali fenomeni fisici che influenzano l ambiente naturale e come possono essere studiati e modellati per prevedere gli effetti dei cambiamenti climatici e delle attività antropiche?', 'Risposta : risposta in elaborazione '),
-  ('5', 7, 'Domanda: Come la fisica ambientale contribuisce alla comprensione dei processi di inquinamento atmosferico e idrico, e quali sono le tecnologie sviluppate per monitorare e mitigare tali impatti nell ambito delle biotecnologie? ', 'Risposta : risposta in elaborazione '),
+  ('5', 7, 'Domanda: Quali sono i principali fenomeni fisici che influenzano l ambiente naturale e come possono essere studiati e modellati per prevedere gli effetti dei cambiamenti climatici e delle attività antropiche?', 'Risposta :I principali fenomeni fisici che influenzano l ambiente naturale e i metodi per studiarli e modellarli includono diversi aspetti cruciali:
+
+Fenomeni Fisici:
+Radiazione Solare e Trasmissione Atmosferica:
+La radiazione solare è assorbita, riflessa e trasmessa dall atmosfera. La sua interazione con l atmosfera influenza il clima terrestre.
+Flusso di Calore e Bilancio Energetico:
+Il flusso di calore tra la Terra e l atmosfera regola la temperatura del pianeta e contribuisce al bilancio energetico globale.
+Circolazione Atmosferica e Oceanica:
+La circolazione atmosferica e oceanica trasporta calore e umidità in tutto il mondo, influenzando il clima regionale e globale.
+Precipitazioni e Ciclo Idrologico:
+Le precipitazioni sono fondamentali per il ciclo dell acqua, includendo evaporazione, trasporto atmosferico, e rilascio di acqua sotto forma di pioggia o neve.
+Eventi Meteorologici Estremi:
+Includono tempeste, uragani, siccità e altre condizioni meteorologiche estreme, che sono influenzate da variabili fisiche come la temperatura dell acqua oceanica e la pressione atmosferica.
+Metodi di Studio e Modellazione:
+Osservazioni e Misurazioni:
+
+Reti di stazioni meteorologiche, satelliti e sensori terrestri raccogliere dati sul clima e sull ambiente.
+Modellazione Numerica:
+
+Utilizzo di modelli climatici che si basano su equazioni matematiche per simulare dinamiche atmosferiche e oceaniche.
+Monitoraggio Remoto e GIS:
+
+Integrazione di dati satellitari con modelli climatici per mappare cambiamenti ambientali.
+Esperimenti in Laboratorio e in Campo:
+
+Studi controllati per capire gli effetti dei cambiamenti climatici su scala piccola.
+Scenari Futuri e Analisi delle Politiche:
+
+Previsioni e sviluppo di piani di adattamento e mitigazione per affrontare gli effetti dei cambiamenti climatici.
+Studiare e modellare questi fenomeni fisici è cruciale per comprendere e prevedere gli impatti dei cambiamenti climatici e delle attività umane sull ambiente. Questo permette di sviluppare strategie per mitigare gli impatti negativi e adattarsi ai cambiamenti in corso. '),
+  ('5', 7, 'Domanda: Come la fisica ambientale contribuisce alla comprensione dei processi di inquinamento atmosferico e idrico, e quali sono le tecnologie sviluppate per monitorare e mitigare tali impatti nell ambito delle biotecnologie? ', 'Risposta :La fisica ambientale è fondamentale nello studio e nella comprensione dei processi di inquinamento atmosferico e idrico, contribuendo allo sviluppo di tecnologie avanzate per monitorare e mitigare tali impatti nelle biotecnologie.
+
+Inquinamento Atmosferico:
+Fenomeni Studiati:
+
+Dispersione Atmosferica: Dipende da vento, temperatura, umidità e struttura atmosferica.
+Reazioni Chimiche: Influenzano la formazione di inquinanti e la qualità dell aria.
+Deposizione Atmosferica: Trasporto degli inquinanti verso il suolo.
+Tecnologie di Monitoraggio:
+
+Spettrometria di Massa e Spettroscopia UV-Vis: Identificazione e quantificazione degli inquinanti.
+Sensori e Reti di Monitoraggio: Rilevamento in tempo reale di PM10, PM2.5, ossidi di azoto, biossidi di zolfo, e altri inquinanti.
+Tecnologie di Mitigazione:
+
+Filtri e Depuratori: Rimozione di particelle e composti gassosi.
+Catalizzatori: Convertire inquinanti in composti meno dannosi.
+Biorisanamento Atmosferico: Biodegradazione di inquinanti.
+Inquinamento Idrico:
+Fenomeni Studiati:
+
+Trasporto Idrodinamico: Movimento degli inquinanti in corpi idrici.
+Processi di Scambio: Scambio di sostanze tra acqua, sedimenti e atmosfera.
+Biodegradazione: Decomposizione di inquinanti.
+Tecnologie di Monitoraggio:
+
+Spettrofotometria e Cromatografia: Analisi chimiche per monitorare contaminanti.
+Sensori di Qualità dell Acqua: Misurazione di pH, temperatura, ossigeno disciolto, conducibilità.
+Tecnologie di Mitigazione:
+
+Trattamento delle Acque Reflue: Rimozione di inquinanti.
+Fitorimediazione e Bioremediation: Trattamento biologico di inquinanti.
+Applicazioni delle Biotecnologie:
+Biorisanamento Ambientale:
+
+Utilizzo di microrganismi per rimuovere inquinanti in modo sostenibile.
+Tecnologie Basate su Microorganismi:
+
+Trattamento di inquinanti con batteri, funghi o alghe.
+Innovazioni Sensoriali e di Monitoraggio:
+
+Sviluppo di sensori avanzati per rilevare inquinanti in tempo reale.
+La fisica ambientale fornisce le basi scientifiche per sviluppare tecnologie avanzate di monitoraggio e mitigazione degli inquinamenti, integrando le biotecnologie per affrontare le sfide ambientali in modo sostenibile e proteggere la salute umana e l ambiente. '),
   ('5', 7, 'Domanda: Qual è il ruolo della fisica ambientale nello studio dell energia rinnovabile, come solare, eolica e idroelettrica, e quali sono le sfide e le opportunità nella loro integrazione nei sistemi energetici sostenibili?', 'Risposta : risposta in elaborazione '),
   ('5', 7, 'Domanda: Come la fisica dei materiali è impiegata nello sviluppo di tecnologie per il trattamento dei rifiuti e la bonifica dei siti contaminati, e quali sono le considerazioni ambientali da tenere in considerazione durante la progettazione di tali sistemi?', 'Risposta : risposta in elaborazione '),
   ('5', 7, 'Domanda: Quali sono le applicazioni della modellizzazione fisica e computazionale nell analisi dei fenomeni naturali, come la dispersione degli inquinanti e l evoluzione dei sistemi biologici, e come queste metodologie possono supportare la ricerca e lo sviluppo nel campo delle biotecnologie ambientali? ', 'Risposta : risposta in elaborazione '),
@@ -772,11 +923,3 @@ Durante la guerra, ci furono cambi di fronte principalmente dovuti alle mutazion
   Semplice – Iniziare a lavorare con Node.js è abbastanza facile. È una scelta obbligata per i principianti del web development. Con moltissimi tutorial e una grande community, iniziare è davvero molto facile.
 Scalabile – Offre una grande scalabilità per le applicazioni. Essendo single-threaded, Node.js è in grado di gestire un enorme numero di connessioni contemporanee con elevata portata.
 Velocità – L esecuzione non bloccante dei thread rende Node.js ancora più veloce ed efficiente.  ');
-
-
-
-
-
-
-
-
