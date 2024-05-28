@@ -63,17 +63,134 @@ CREATE TABLE IF NOT EXISTS subject_qnas (
 
 
 INSERT INTO subject_qnas (schedule_ids, subject_id, question, answer) VALUES
-  ('1', 4, 'Domanda: Spiega il concetto di inflazione e quali sono le sue cause principali', 'Risposta : Nelle economie di mercato i prezzi di beni e servizi possono subire variazioni in qualsiasi momento: alcuni aumentano, altri diminuiscono. Si ha inflazione quando si registra un rincaro di ampia portata, che non si limita a singole voci di spesa. Questo significa che con un euro si possono acquistare oggi meno beni e servizi rispetto al passato. In altre parole, l’inflazione riduce il valore della moneta nel tempo.Quando si calcola l’incremento medio dei prezzi si attribuisce un peso maggiore alle variazioni dei beni e servizi per i quali i consumatori spendono di più (ad esempio l’energia elettrica) rispetto a voci di spesa meno significative (quali lo zucchero o i francobolli). '),
-  ('1', 4, 'Domanda: Cosa sono le politiche monetarie e fiscali e come vengono utilizzate per gestire l economia di un paese?', 'Risposta : La politica fiscale delinea come un governo genera entrate riscuotendo le tasse, investe le stesse in spese e servizi di pubblica utilità, e crea un bilancio realizzando proiezioni di entrate e uscite. Si basa sulla teoria economica keynesiana che suggerisce che la produttività macroeconomica di un paese può essere influenzata dalle decisioni del suo governo in materia di tassazione e spesa. I governi raggiungono obiettivi macroeconomici attraverso tasse , spese e budget:Tasse : le principali fonti di reddito della spesa pubblica. Sono applicati a una vasta gamma di articoli come prodotti di consumo, stipendi dei dipendenti, alloggi e attività commerciali.Spesa : come il reddito generato dalle tasse viene utilizzato dal governo per creare sussidi, programmi di welfare e progetti pubblici.Budgeting : piano di distribuzione delle attività di spesa e fondi del governo, per lo più fissati a programmi di welfare nazionali come la sicurezza sociale e l’assistenza sanitaria. '),
+  ('1', 4, 'Domanda: Spiega il concetto di inflazione e quali sono le sue cause principali', 'Risposta : Nelle economie di mercato i prezzi di beni e servizi possono subire variazioni in qualsiasi momento: alcuni aumentano, altri diminuiscono. Si ha inflazione quando si registra un rincaro di ampia portata, che non si limita a singole voci di spesa. Questo significa che con un euro si possono acquistare oggi meno beni e servizi rispetto al passato. In altre parole, l inflazione riduce il valore della moneta nel tempo.Quando si calcola l incremento medio dei prezzi si attribuisce un peso maggiore alle variazioni dei beni e servizi per i quali i consumatori spendono di più (ad esempio l energia elettrica) rispetto a voci di spesa meno significative (quali lo zucchero o i francobolli). '),
+  ('1', 4, 'Domanda: Cosa sono le politiche monetarie e fiscali e come vengono utilizzate per gestire l economia di un paese?', 'Risposta : La politica fiscale delinea come un governo genera entrate riscuotendo le tasse, investe le stesse in spese e servizi di pubblica utilità, e crea un bilancio realizzando proiezioni di entrate e uscite. Si basa sulla teoria economica keynesiana che suggerisce che la produttività macroeconomica di un paese può essere influenzata dalle decisioni del suo governo in materia di tassazione e spesa. I governi raggiungono obiettivi macroeconomici attraverso tasse , spese e budget:Tasse : le principali fonti di reddito della spesa pubblica. Sono applicati a una vasta gamma di articoli come prodotti di consumo, stipendi dei dipendenti, alloggi e attività commerciali.Spesa : come il reddito generato dalle tasse viene utilizzato dal governo per creare sussidi, programmi di welfare e progetti pubblici.Budgeting : piano di distribuzione delle attività di spesa e fondi del governo, per lo più fissati a programmi di welfare nazionali come la sicurezza sociale e l assistenza sanitaria. '),
   ('1', 4, 'Domanda: Descrivi il concetto di concorrenza perfetta e fornisce esempi di mercati che si avvicinano a questa situazione', 'Risposta : La concorrenza perfetta è una forma di mercato in cui i produttori e i consumatori non sono in grado di influenzare i prezzi di mercato dei beni e dei servizi. È una forma di mercato caratterizzata da un elevato numero di venditori e compratori. Ogni singolo operatore economico occupa soltanto una parte infinitesimale della domanda o dell offerta dei beni. In tali condizioni il comportamento del singolo operatore ( acquisto o offerta ) non gli consente di influenzare e di far variare il prezzo di mercato. In concorrenza perfetta i soggetti economici sono price-taker in quanto prendono in considerazione il livello del prezzo determinato dal mercato, dalla libera e simultanea contrattazione fra acquirenti e offerenti. '),
   ('1', 4, 'Domanda: Quali sono le differenze tra economia di mercato, economia sociale e economia sostenibile?', 'Risposta : L economia sociale di mercato e l economia circolare rappresentano due visioni diverse dell economia, ognuna con obiettivi specifici e approcci distinti.L economia sociale di mercato si concentra sull armonizzazione della libertà economica e della giustizia sociale, cercando di trovare un equilibrio tra l efficienza economica e il benessere sociale. Il suo scopo principale è quello di creare un sistema in cui l economia di mercato coesista con politiche di inclusione sociale e sicurezza sociale. Si basa sui principi dell economia di mercato, ma prevede anche un ruolo attivo dello Stato nel raggiungimento di obiettivi sociali. L economia sociale di mercato è solitamente applicata a livello di un intero sistema nazionale o regionale.D altra parte, l economia circolare propone un cambiamento di paradigma rispetto al modello tradizionale di economia lineare. Invece di estrarre risorse, produrre beni e poi eliminare i rifiuti, l obiettivo dell economia circolare è ridurre al minimo lo sfruttamento delle risorse naturali e promuovere il riciclaggio, la riutilizzazione e il ripristino dei materiali e dei prodotti. Questo approccio mira a creare un sistema più sostenibile, riducendo lo spreco e ottimizzando il ciclo di vita dei prodotti. '),
-  ('1', 4, 'Domanda: Descrivi il concetto di "welfare state" e discuti le sue origini storiche, le principali caratteristiche e il ruolo del governo nella sua implementazione?', 'Risposta : Per welfare state si intende l’insieme di istituti dell’intervento pubblico in economia – ulteriori rispetto agli interventi di uno stato minimale – che hanno come fine ultimo quello di garantire il benessere dei cittadini. Combattere le condizioni di povertà o di indigenza originate da motivazioni diverse(Malattia, invalidità, vecchiaia, disoccupazione). La grande crisi economica nata nel 1929 negli Stati Uniti, e rapidamente estesa in tutti i Paesi del mondo, ha accelerato la diffusione degli istituti di protezione sociale. • Un passo importante nella formazione degli istituti di welfare state è costituito dal Rapporto Beveridge, presentato nel 1942 in Gran Bretagna. Negli anni successivi alla Seconda Guerra Mondiale che, in tutte le economie occidentali con sistemi di libero mercato, si registra un’enorme espansione quantitativa e qualitativa dell’intervento pubblico nell’economia con finalità sociali. • L’affermazione delle destre (Thatcher nel Regno Unito, 1979 e Reagan negli USA, 1980) ha portato altramonto dell’interventismo di stampo keynesiano e ha imposto nuovi modelli di politica economica con uno smantellamento di alcuni istituti dello stato sociale. Si assiste a una riduzione dell’entità dei trasferimenti verso lo stato sociale.  '),
+  ('1', 4, 'Domanda: Descrivi il concetto di "welfare state" e discuti le sue origini storiche, le principali caratteristiche e il ruolo del governo nella sua implementazione?', 'Risposta : Per welfare state si intende l insieme di istituti dell intervento pubblico in economia – ulteriori rispetto agli interventi di uno stato minimale – che hanno come fine ultimo quello di garantire il benessere dei cittadini. Combattere le condizioni di povertà o di indigenza originate da motivazioni diverse(Malattia, invalidità, vecchiaia, disoccupazione). La grande crisi economica nata nel 1929 negli Stati Uniti, e rapidamente estesa in tutti i Paesi del mondo, ha accelerato la diffusione degli istituti di protezione sociale. • Un passo importante nella formazione degli istituti di welfare state è costituito dal Rapporto Beveridge, presentato nel 1942 in Gran Bretagna. Negli anni successivi alla Seconda Guerra Mondiale che, in tutte le economie occidentali con sistemi di libero mercato, si registra un enorme espansione quantitativa e qualitativa dell intervento pubblico nell economia con finalità sociali. • L affermazione delle destre (Thatcher nel Regno Unito, 1979 e Reagan negli USA, 1980) ha portato altramonto dellinterventismo di stampo keynesiano e ha imposto nuovi modelli di politica economica con uno smantellamento di alcuni istituti dello stato sociale. Si assiste a una riduzione dell entità dei trasferimenti verso lo stato sociale.  '),
   
-  ('1', 21, 'Domanda: ¿Analiza el tratamiento del tema de la explotación infantil en una obra literaria española contemporánea. ¿Cuáles son los desafíos sociales y económicos enfrentados por los niños protagonistas y cómo se reflejan en el contexto histórico y cultural de la obra? ', 'Risposta : ciaoowhi'),
-  ('1', 21, 'Domanda: ¿Explora el papel de la literatura en sacar a la luz las desigualdades económicas y sociales en España. Aborda temas como la pobreza, la marginación y el acceso a los recursos económicos y sociales. ? ', 'Risposta : risposta in elaborazione'),
-  ('1', 21, 'Domanda: ¿Examina el concepto de "cuarto sector" a través de la lente de la literatura española contemporánea.Discute las dinámicas económicas y sociales que caracterizan a las empresas sociales y las organizaciones sin ánimo de lucro en España.? ', 'Risposta : risposta in elaborazione'),
-  ('1', 21, 'Domanda: ¿Cuál es la viabilidad y los posibles impactos del "trabajo garantizado" como política laboral en el contexto económico actual? ', 'Risposta : risposta in elaborazione'),
-  ('1', 21, 'Domanda: ¿Cuál es el papel del Mercosur en la integración económica y política de América del Sur y cuáles son los desafíos que enfrenta en la actualidad para lograr sus objetivos? ', 'Risposta : risposta in elaborazione'),
+  ('1', 21, 'Domanda: ¿De qué trata la literatura española contemporánea y qué temas y cuestiones sociales y económicas aborda?', 
+'Risposta : Contexto Histórico y Cultural
+Época y Ambientación: Refleja problemas actuales en España, como la pobreza y la desigualdad.
+Contexto Cultural: La crisis económica y el desempleo crean un entorno donde la explotación infantil es posible.
+Desafíos Sociales y Económicos
+Pobreza: Las familias necesitan que los niños trabajen para sobrevivir.
+Educación: Los niños explotados no pueden asistir a la escuela, perpetuando la pobreza.
+Abuso: Trabajan en condiciones peligrosas y son vulnerables al abuso.
+Reflejo en la Obra Literaria
+Personajes y Tramas: Los niños son retratados como víctimas que luchan por una vida mejor.
+Crítica Social: Los autores denuncian la indiferencia y la inacción gubernamental.
+Estilo Realista: Detalles vívidos de las condiciones de vida y trabajo de los niños.
+Simbología: La explotación infantil simboliza la corrupción y decadencia social.
+Conclusión
+La literatura española contemporánea utiliza la explotación infantil para criticar las condiciones sociales y económicas que perpetúan esta injusticia, destacando la necesidad de cambios urgentes para proteger a los niños.'),
+  ('1', 21, 'Domanda: ¿Explora el papel de la literatura en sacar a la luz las desigualdades económicas y sociales en España. Aborda temas como la pobreza, la marginación y el acceso a los recursos económicos y sociales. ? ', 
+  'Risposta : Papel de la Literatura en Resaltar Desigualdades en España
+1. Pobreza
+Narrativas Realistas: Obras como "Fortunata y Jacinta" de Benito Pérez Galdós retratan la pobreza en el siglo XIX.
+Literatura Contemporánea: Escritores como Almudena Grandes, en "Los aires difíciles," abordan la precariedad económica en la España actual.
+2. Marginación
+Personajes Marginales: "La familia de Pascual Duarte" de Camilo José Cela muestra la vida de personas excluidas socialmente.
+Ficción Social: "Crematorio" de Rafael Chirbes explora la corrupción y la marginación en la España moderna.
+3. Acceso a Recursos Económicos y Sociales
+Crítica a las Élites: "El hereje" de Miguel Delibes critica la desigualdad en la distribución de la riqueza.
+Educación y Oportunidades: "La voz dormida" de Dulce Chacón trata sobre la represión franquista y la falta de acceso a la educación.
+Impacto
+Concienciación Social: La literatura aumenta la conciencia sobre las desigualdades y da voz a los desfavorecidos.
+Movilización Social: Ha inspirado movimientos sociales y políticos, fomentando el cambio.
+Ejemplos de Obras
+"Fortunata y Jacinta" de Benito Pérez Galdós
+"La familia de Pascual Duarte" de Camilo José Cela
+"Los aires difíciles" de Almudena Grandes
+"Crematorio" de Rafael Chirbes
+"El hereje" de Miguel Delibes
+"La voz dormida" de Dulce Chacón
+Conclusión
+La literatura española es vital para destacar y criticar las desigualdades económicas y sociales, promoviendo reflexión y cambio social.'),
+  ('1', 21, 'Domanda: ¿Examina el concepto de "cuarto sector" a través de la lente de la literatura española contemporánea.Discute las dinámicas económicas y sociales que caracterizan a las empresas sociales y las organizaciones sin ánimo de lucro en España.? ', 
+'Risposta : Concepto de "Cuarto Sector" en la Literatura Española Contemporánea
+Dinámicas Económicas y Sociales del Cuarto Sector en España
+Misión Social y Sostenibilidad Económica
+
+Literatura: Ejemplo en "Los aires difíciles" de Almudena Grandes.
+Innovación Social
+
+Empresas sociales innovan para resolver problemas sociales.
+Literatura: Ejemplo en "El hereje" de Miguel Delibes.
+Impacto Comunitario
+
+Enfoque en mejorar las condiciones de vida de las comunidades.
+Literatura: Ejemplo en "Crematorio" de Rafael Chirbes.
+Desafíos Financieros y Regulatorios
+
+Luchas financieras y regulaciones que enfrentan las organizaciones del cuarto sector.
+Literatura: Ejemplo en "La voz dormida" de Dulce Chacón.
+Colaboración y Redes
+
+Importancia de la colaboración entre diferentes actores para el éxito del cuarto sector.
+Literatura: Ejemplo en "Patria" de Fernando Aramburu.
+Conclusión
+La literatura española contemporánea refleja cómo el "cuarto sector" aborda las desigualdades sociales y económicas mediante modelos empresariales sostenibles, innovadores y socialmente comprometidos. Estas obras ofrecen una crítica reflexiva sobre las dinámicas y desafíos que enfrentan estas organizaciones, destacando la importancia de equilibrar la misión social con la viabilidad económica para lograr un impacto positivo en la sociedad.'),
+  ('1', 21, 'Domanda: ¿Cuáles son la viabilidad y los posibles impactos del "trabajo garantizado" como política laboral en el contexto económico actual? ', 
+'Risposta:Impacto: Contribuiría significativamente a reducir la tasa de desempleo al proporcionar oportunidades de trabajo a quienes lo necesitan.
+Mejora de la Estabilidad Económica:
+
+Impacto:Reducción de la Pobreza y la Desigualdad:
+
+Impacto: Podría aumentar los costos fiscales y generar presiones inflacionarias si no se maneja adecuadamente.
+Impulso a la Productividad y Competitividad:
+
+Impacto: Mejoraría la productividad laboral y la competitividad económica a largo plazo, especialmente con inversiones en formación y desarrollo laboral.
+
+
+Conclusión
+El concepto de trabajo garantizado se refiere a una política económica en la cual el gobierno se compromete a proporcionar empleo a todos los ciudadanos que estén dispuestos y sean capaces de trabajar, pero que no pueden encontrar empleo en el sector privado.'),
+  ('1', 21, 'Domanda: ¿Cuál es el papel del Mercosur en la integración económica y política de América del Sur y cuáles son los desafíos que enfrenta en la actualidad para lograr sus objetivos? ', 
+  'Risposta : Papel del Mercosur en la Integración Económica y Política de América del Sur y Desafíos Actuales
+
+El Mercosur desempeña un rol crucial en la integración económica y política de América del Sur, promoviendo la libre circulación de bienes, servicios y factores productivos, así como la coordinación de políticas macroeconómicas y la armonización de legislaciones entre sus países miembros. Sin embargo, enfrenta desafíos importantes:
+
+Integración Económica:
+Zona de Libre Comercio:
+
+Importancia: Eliminación de aranceles y barreras comerciales intra-regionales.
+Beneficios: Estímulo al comercio y aumento de la competitividad.
+Unión Aduanera:
+
+Importancia: Establecimiento de una tarifa externa común para bienes importados.
+Beneficios: Coordinación en la política comercial y fortalecimiento del comercio internacional.
+Cooperación Económica e Infraestructura:
+
+Importancia: Promoción de proyectos de integración física (transporte, energía).
+Beneficios: Mejora de la conectividad y facilitación del comercio.
+Integración Política:
+Coordinación Política y Diplomática:
+
+Importancia: Consenso en temas políticos y diplomáticos regionales e internacionales.
+Beneficios: Fortalecimiento de la voz de América del Sur en foros globales.
+Cooperación en Seguridad y Defensa:
+
+Importancia: Promoción de la paz y la seguridad regional.
+Beneficios: Fomento de la estabilidad y la confianza entre los países miembros.
+Desafíos Actuales del Mercosur:
+Crisis Económicas y Políticas Internas:
+
+Desafío: Diferencias económicas y políticas entre los países miembros.
+Impacto: Retrasos en la implementación de políticas y proyectos.
+Negociaciones Comerciales Externas:
+
+Desafío: Dificultades para avanzar en negociaciones comerciales externas.
+Impacto: Pérdida de oportunidades de acceso a mercados externos.
+Incertidumbre Política:
+
+Desafío: Cambios políticos y liderazgos que pueden afectar la cohesión del bloque.
+Impacto: Incertidumbre sobre la continuidad y el compromiso con la integración regional.
+Adaptación a Nuevos Desafíos Globales:
+
+Desafío: Necesidad de adaptarse a desafíos como la digitalización y el cambio climático.
+Impacto: Requerimiento de nuevas políticas y regulaciones para el desarrollo sostenible.
+Conclusión:
+El Mercosur es fundamental para la integración de América del Sur, pero debe superar desafíos internos y externos para fortalecer su posición y cumplir sus objetivos de integración económica y política en la región.'),
  
   ('1', 18, 'Domanda: Quali sono le principali teorie sociologiche che spiegano lo sviluppo delle società moderne e come si collegano ai concetti economici chiave? ', 'Risposta : Le principali teorie sociologiche includono il funzionalismo, che vede la società come un sistema di parti interconnesse che lavorano insieme per mantenere l equilibrio; la teoria del conflitto, che si concentra sulle disuguaglianze di potere e risorse, sostenendo che la società è in costante stato di conflitto per il controllo delle risorse; e l interazionismo simbolico, che esplora come le interazioni quotidiane e i simboli costruiscano la realtà sociale. Queste teorie si collegano ai concetti economici chiave come la divisione del lavoro, la distribuzione delle risorse e il potere economico. '),
   ('1', 18, 'Domanda: Come influiscono i fattori socioeconomici nella formazione dell identità individuale e collettiva nelle comunità locali e globali? ', 'Risposta : I fattori socioeconomici, come il reddito, l istruzione e lo status occupazionale, influenzano profondamente l identità individuale e collettiva. A livello individuale, determinano le opportunità di vita, le aspirazioni e le esperienze personali. A livello collettivo, contribuiscono alla formazione delle identità di gruppo, come la classe sociale, e influenzano le dinamiche di inclusione ed esclusione nelle comunità locali e globali. '),
@@ -87,14 +204,262 @@ INSERT INTO subject_qnas (schedule_ids, subject_id, question, answer) VALUES
   ('5', 1, 'Domanda: Come la biologia molecolare contribuisce alla comprensione delle malattie genetiche e quali sono le potenziali terapie genetiche che potrebbero essere sviluppate per trattarle?', 'Risposta : La biologia molecolare ha contribuito in modo significativo alla comprensione delle malattie genetiche, permettendo di identificare mutazioni specifiche che causano queste patologie. L analisi genetica ha rivelato le basi molecolari di molte malattie ereditarie, aprendo la strada allo sviluppo di modelli di malattia che possono essere utilizzati per studiare le patologie e testare nuovi trattamenti.Le potenziali terapie genetiche sviluppate grazie a queste scoperte includono la terapia genica, che mira a sostituire o riparare i geni difettosi all interno delle cellule del paziente, e le terapie basate sull RNA, che utilizzano meccanismi come l interferenza dell RNA (RNAi) per modulare l espressione genica. Queste terapie potrebbero rivoluzionare il trattamento di malattie come la fibrosi cistica, la distrofia muscolare e varie forme di cancro, offrendo soluzioni mirate e personalizzate che agiscono direttamente sulle cause genetiche delle malattie. '),
   ('5', 1, 'Domanda: Qual è il ruolo della biotecnologia nella conservazione della biodiversità e nella protezione dell ambiente, e quali sono le sfide nella gestione sostenibile delle risorse naturali?', 'Risposta : La biotecnologia gioca un ruolo cruciale nella conservazione della biodiversità e nella protezione dell ambiente. Tecniche genetiche avanzate sono utilizzate per preservare specie in pericolo, clonando individui o creando riserve genetiche. Inoltre, la bioremediation, che utilizza microrganismi per degradare sostanze inquinanti, rappresenta una soluzione sostenibile per la decontaminazione ambientale.Tuttavia, ci sono sfide significative nella gestione sostenibile delle risorse naturali. L introduzione di organismi geneticamente modificati può avere impatti ecologici imprevisti, come la riduzione della biodiversità o la creazione di specie invasive. Inoltre, è essenziale bilanciare gli interessi economici e conservazionistici, assicurando che lo sviluppo tecnologico non comprometta la salute degli ecosistemi. La gestione sostenibile delle risorse naturali richiede un approccio integrato che consideri sia le esigenze umane che la protezione ambientale a lungo termine.'),
  
-  ('5', 2, 'Domanda: Quali sono le principali tecniche analitiche e strumentali utilizzate nella caratterizzazione dei biomateriali e dei prodotti biotecnologici, e come contribuiscono alla qualità e alla sicurezza dei prodotti finali? ', 'Risposta : risposta in elaborazione '),
-  ('5', 2, 'Domanda: Come vengono impiegate le tecniche di spettrometria di massa e cromatografia nella separazione e nell identificazione di molecole biologicamente rilevanti, e quali sono le loro applicazioni pratiche nel campo delle biotecnologie? ', 'Risposta : risposta in elaborazione '),
-  ('5', 2, 'Domanda: Qual è l importanza della spettroscopia nel monitoraggio dei processi biotecnologici, e come può essere utilizzata per ottimizzare le rese di produzione e garantire la purezza dei prodotti? ', 'Risposta : risposta in elaborazione '),
-  ('5', 2, 'Domanda: Come le tecniche di microscopia, come la microscopia elettronica a scansione e la microscopia a fluorescenza, consentono di studiare le strutture cellulari e subcellulari, e quali sono le implicazioni di tali studi per lo sviluppo di nuove terapie e diagnostica? ', 'Risposta : risposta in elaborazione '),
-  ('5', 2, 'Domanda: Quali sono le sfide e le opportunità nell applicazione delle tecniche di spettrometria di risonanza magnetica nucleare (NMR) nella caratterizzazione dei composti organici e biochimici, e come queste tecniche possono essere utilizzate per comprendere i meccanismi molecolari delle malattie e lo sviluppo di farmaci? ', 'Risposta : risposta in elaborazione '),
+  ('5', 2, 'Domanda: Quali sono le principali tecniche analitiche e strumentali utilizzate nella caratterizzazione dei biomateriali e dei prodotti biotecnologici, e come contribuiscono alla qualità e alla sicurezza dei prodotti finali? ', 'Risposta : Le principali tecniche sono Microscopia (SEM, TEM, AFM)
+
+Analizza morfologia e struttura.
+Spettroscopia (FTIR, NMR, MS)
+
+Identifica composizione e struttura chimica.
+Cromatografia (HPLC, IEC, Affinità)
+
+Separa e purifica componenti.
+Diffrazione e Scattering (XRD, DLS)
+
+Determina struttura cristallina e dimensione particelle.
+Tecniche Termiche (DSC, TGA)
+
+Analizza transizioni termiche e stabilità.
+Contributo alla Qualità e Sicurezza
+Qualità: Controllo impurità e conformità alle specifiche.
+Sicurezza: Valutazione biocompatibilità e stabilità.
+Efficacia: Caratterizzazione funzionale e purificazione.
+Conclusione
+Queste tecniche garantiscono la qualità, sicurezza ed efficacia dei biomateriali e prodotti biotecnologici.
+ '),
+  ('5', 2, 'Domanda: Come vengono impiegate le tecniche di spettrometria di massa e cromatografia nella separazione e nell identificazione di molecole biologicamente rilevanti, e quali sono le loro applicazioni pratiche nel campo delle biotecnologie? '
+, 'Risposta :Cromatografia e Spettrometria di Massa
+Cromatografia
+HPLC: Separa e purifica proteine, peptidi e metaboliti.
+IEC: Separa biomolecole caricate, come proteine e amminoacidi.
+Colonna Affine: Purifica biomolecole con alta specificità, come anticorpi e enzimi.
+Spettrometria di Massa (MS)
+Identificazione: Misura la massa molecolare e identifica le molecole.
+Applicazioni: Identificazione di proteine, peptidi, metaboliti e analisi di modificazioni post-traduzionali.
+Applicazioni Pratiche
+Proteomica: Identificazione e analisi delle proteine e delle loro modificazioni.
+Metabolomica: Profilazione e studio dei metaboliti e delle vie metaboliche.
+Sviluppo Farmaceutico: Identificazione, quantificazione e controllo di qualità dei farmaci.
+Biotecnologie Ambientali: Monitoraggio degli inquinanti e processi di biorisanamento.
+Diagnostica Clinica: Diagnosi di malattie e monitoraggio delle terapie tramite biomarcatori.
+Conclusione
+Queste tecniche sono fondamentali per garantire la qualità, sicurezza ed efficacia dei prodotti biotecnologici, con applicazioni che vanno dalla ricerca scientifica alla diagnostica e alla produzione industriale. '),
+  ('5', 2, 'Domanda: Qual è l importanza della spettroscopia nel monitoraggio dei processi biotecnologici, e come può essere utilizzata per ottimizzare le rese di produzione e garantire la purezza dei prodotti? '
+, 'Risposta :La spettroscopia riveste un importanza cruciale nel monitoraggio dei processi biotecnologici, poiché consente di ottenere informazioni dettagliate e in tempo reale sui processi e sui prodotti biologici. Ecco come può essere utilizzata:
+
+Caratterizzazione dei Biomateriali:
+
+Importanza: La spettroscopia permette di caratterizzare biomateriali come proteine, acidi nucleici e carboidrati, essenziali per la produzione biotecnologica.
+Utilizzo: Identifica e quantifica molecole, analizzando spettri di assorbimento, emissione o risonanza magnetica.
+Monitoraggio dei Processi di Produzione:
+
+Importanza: Monitora variabili chiave come la concentrazione di substrati, la produzione di metaboliti e la crescita del microorganismo.
+Utilizzo: Spettroscopia Raman, NIR o fluorescenza per misurare in-linea o in situ.
+Ottimizzazione delle Rese di Produzione:
+
+Importanza: Identifica condizioni ottimali per massimizzare la produzione di biomolecole.
+Utilizzo: Analisi spettrale per ottimizzare temperatura, pH, e concentrazione di nutrienti.
+Controllo della Purezza dei Prodotti:
+
+Importanza: Assicura la qualità e la purezza dei prodotti biotecnologici.
+Utilizzo: Spettroscopia UV-Vis, FTIR o NMR per verificare contaminanti o impurità.
+Monitoraggio delle Interazioni Molecolari:
+
+Importanza: Studia interazioni molecolari come legami proteina-ligando.
+Utilizzo: Spettroscopia di fluorescenza o SPR per analizzare affinità e cinetica.
+Conclusione:
+La spettroscopia gioca un ruolo fondamentale nel monitoraggio e nell ottimizzazione dei processi biotecnologici, migliorando le rese di produzione e garantendo la purezza dei prodotti. Fornisce informazioni cruciali per regolare parametri di processo e per la qualità del prodotto finale, contribuendo così alla sicurezza e all efficacia delle applicazioni biotecnologiche. '),
+  ('5', 2, 'Domanda: Come le tecniche di microscopia, come la microscopia elettronica a scansione e la microscopia a fluorescenza, consentono di studiare le strutture cellulari e subcellulari, e quali sono le implicazioni di tali studi per lo sviluppo di nuove terapie e diagnostica? ', 'Risposta : Le tecniche di microscopia, come la microscopia elettronica a scansione (SEM) e la microscopia a fluorescenza, sono fondamentali nello studio delle strutture cellulari e subcellulari, e hanno implicazioni significative nello sviluppo di nuove terapie e diagnostica. Ecco come contribuiscono:
+
+Microscopia Elettronica a Scansione (SEM)
+Studi delle Strutture Superficiali:
+
+Importanza: Permette di visualizzare dettagli morfologici e topografici delle superfici cellulari.
+Utilizzo: Indaga la forma, la dimensione e la distribuzione delle strutture cellulari.
+Imaging ad Alta Risoluzione:
+
+Importanza: Fornisce immagini dettagliate con risoluzione fino al nanometro.
+Utilizzo: Utile per l analisi delle nanoparticelle, studi di interazione cellula-materiale e sviluppo di nanotecnologie in medicina.
+Microscopia a Fluorescenza
+Visualizzazione delle Strutture Cellulari:
+
+Importanza: Permette di etichettare specificamente le strutture cellulari con fluorocromi.
+Utilizzo: Studia localizzazione subcellulare, dinamica delle proteine e interazioni molecolari.
+Imaging in Vivo:
+
+Importanza: Utilizzata per osservare processi cellulari in tempo reale in organismi vivi.
+Utilizzo: Cruciale per lo sviluppo di terapie basate su cellule e per l ottimizzazione della consegna di farmaci.
+Implicazioni per lo Sviluppo di Nuove Terapie e Diagnostica
+Identificazione di Anomalie Cellulari:
+
+Implicazioni: Aiuta a comprendere le basi cellulari delle malattie e a identificare anomalie subcellulari.
+Utilizzo: Guida lo sviluppo di biomarcatori e diagnostica precoce.
+Targeting Terapeutico Preciso:
+
+Implicazioni: Consente di studiare l interazione di farmaci con bersagli cellulari specifici.
+Utilizzo: Ottimizza l efficacia dei trattamenti e minimizza gli effetti collaterali.
+Innovazioni in Nanomedicina:
+
+Implicazioni: Facilita lo sviluppo di nanosistemi per la consegna mirata di farmaci.
+Utilizzo: Migliora la bioattività e la sicurezza dei farmaci.
+Conclusione
+Le tecniche di microscopia avanzate come SEM e microscopia a fluorescenza rivestono un ruolo essenziale nello studio delle strutture cellulari e subcellulari. Questi studi non solo aumentano la nostra comprensione delle basi biologiche delle malattie, ma anche facilitano lo sviluppo di nuove terapie, diagnostiche avanzate e innovazioni in nanomedicina, contribuendo così alla salute e al benessere. '),
+  ('5', 2, 'Domanda: Quali sono le sfide e le opportunità nell applicazione delle tecniche di spettrometria di risonanza magnetica nucleare (NMR) nella caratterizzazione dei composti organici e biochimici, e come queste tecniche possono essere utilizzate per comprendere i meccanismi molecolari delle malattie e lo sviluppo di farmaci? ', 'Risposta : Sfide e Opportunità nell Applicazione della Spettrometria di Risonanza Magnetica Nucleare (NMR)
+
+La spettrometria di risonanza magnetica nucleare (NMR) è una potente tecnica analitica utilizzata nella caratterizzazione dei composti organici e biochimici. Tuttavia, presenta sfide e opportunità significative nell ambito della ricerca scientifica, in particolare per comprendere i meccanismi molecolari delle malattie e nello sviluppo di farmaci.
+
+Sfide:
+Complessità e Interpretazione dei Dati:
+
+Sfida: I dati NMR possono essere complessi da interpretare, specialmente quando si tratta di molecole biologicamente rilevanti.
+Implicazioni: È necessaria un esperienza significativa per analizzare correttamente i dati e ottenere informazioni molecolari accurate.
+Sensibilità e Quantità di Campione:
+
+Sfida: NMR richiede quantità relativamente grandi di campione e può essere meno sensibile rispetto ad altre tecniche analitiche.
+Implicazioni: Limitazioni nella quantità di campione disponibile, specialmente per biomolecole rare o in piccole quantità.
+Costo degli Strumenti e della Manutenzione:
+
+Sfida: Gli strumenti NMR sono costosi da acquistare, gestire e mantenere.
+Implicazioni: Limita l accessibilità della tecnologia, specialmente in contesti di risorse limitate.
+Complessità delle Biomolecole:
+
+Sfida: Le biomolecole sono spesso complesse e possono interagire in modi dinamici.
+Implicazioni: Richiede tecniche avanzate di NMR per studiare interazioni molecolari e dinamiche conformazionali.
+Opportunità:
+Alta Risoluzione Strutturale:
+
+Opportunità: NMR fornisce una risoluzione strutturale ad alta definizione delle biomolecole.
+Applicazione: Cruciale per comprendere la struttura e la funzione delle proteine, RNA, DNA e metaboliti.
+Analisi della Dinamica Molecolare:
+
+Opportunità: NMR consente lo studio della dinamica molecolare e delle interazioni a livello atomico.
+Applicazione: Utile per comprendere i meccanismi molecolari delle malattie e per lo sviluppo di farmaci che interferiscono con specifiche interazioni molecolari.
+Applicazioni in Vivo e in Vitro:
+
+Opportunità: NMR può essere utilizzato sia in studi in vivo che in vitro.
+Applicazione: Fondamentale per lo sviluppo di farmaci e per la valutazione degli effetti dei farmaci sui biomarcatori.
+Progressi Tecnologici:
+
+Opportunità: Avanzamenti nella tecnologia NMR migliorano la sensibilità e l accessibilità.
+Applicazione: Permette studi più dettagliati e approfonditi, riducendo la necessità di grandi quantità di campione.
+Utilizzo per Comprendere i Meccanismi Molecolari delle Malattie e lo Sviluppo di Farmaci:
+Identificazione di Biomarcatori:
+
+Applicazione: Utilizzo di NMR per identificare biomarcatori specifici e comprendere le basi molecolari delle malattie.
+Progettazione e Valutazione dei Farmaci:
+
+Applicazione: Utilizzo di NMR per studiare l interazione tra farmaci e bersagli molecolari, migliorando la progettazione e l ottimizzazione dei farmaci.
+Studi di Metabolomica:
+
+Applicazione: Utilizzo di NMR per lo studio di profili metabolici, identificando biomarcatori di malattie e monitorando risposte al trattamento.
+Conclusione:
+La spettrometria di risonanza magnetica nucleare (NMR) offre un potente strumento per la caratterizzazione dei composti organici e biochimici, con sfide legate alla complessità dei dati, alla sensibilità e al costo. Tuttavia, fornisce un alta risoluzione strutturale e dinamica molecolare, essenziale per comprendere i meccanismi molecolari delle malattie e per lo sviluppo di nuove terapie e diagnostica avanzata. '),
   
-  ('5', 3, 'Domanda: Quali sono le principali classi di composti organici e biomolecole che costituiscono la base della chimica organica e biochimica, e come sono impiegate nella progettazione e sintesi di nuovi composti biologicamente attivi? ', 'Risposta : risposta in elaborazione '),
-  ('5', 3, 'Domanda: Come le reazioni di trasformazione degli amminoacidi e degli zuccheri influenzano la struttura e la funzione delle proteine e dei carboidrati, e quali sono le implicazioni di tali processi nella progettazione di nuovi farmaci e terapie? ', 'Risposta : risposta in elaborazione '),
+  ('5', 3, 'Domanda: Quali sono le principali classi di composti organici e biomolecole che costituiscono la base della chimica organica e biochimica, e come sono impiegate nella progettazione e sintesi di nuovi composti biologicamente attivi? ', 'Risposta : Le principali classi di composti organici e biomolecole che costituiscono la base della chimica organica e biochimica includono:
+
+Classi di Composti Organici:
+Idrocarburi:
+
+Definizione: Composti costituiti solo da atomi di carbonio e idrogeno.
+Esempi: Metano, etano, benzene.
+Utilizzo: Come base per la sintesi di molti altri composti organici.
+Alcoli:
+
+Definizione: Composti contenenti un gruppo -OH (idrossile) legato a un atomo di carbonio.
+Esempi: Etanolo, glicerolo.
+Utilizzo: Solventi, reagenti per sintesi organica.
+Chetoni:
+
+Definizione: Composti con un gruppo carbonilico (C=O) legato a due atomi di carbonio.
+Esempi: Acetone, propanone.
+Utilizzo: Solventi, precursori per la sintesi di alcoli e acidi carbossilici.
+Acidi Carbossilici:
+
+Definizione: Composti con un gruppo carbossilico (COOH).
+Esempi: Acido acetico, acido formico.
+Utilizzo: Intermedi nella sintesi di esteri e ammidi.
+Amine:
+
+Definizione: Composti contenenti un gruppo amminico (-NH2) legato a un atomo di carbonio.
+Esempi: Metilammina, etilammina.
+Utilizzo: Precursori per la sintesi di farmaci, coloranti, polimeri.
+Biomolecole:
+Proteine:
+
+Definizione: Polimeri di amminoacidi legati da legami peptidici.
+Esempi: Insulina, emoglobina.
+Utilizzo: Biocatalizzatori, struttura cellulare, trasporto di molecole.
+Carboidrati:
+
+Definizione: Polisaccaridi e zuccheri semplici.
+Esempi: Glucosio, amido, cellulosa.
+Utilizzo: Fonti di energia, componenti strutturali cellulari.
+Lipidi:
+
+Definizione: Molecole insolubili in acqua, come grassi e oli.
+Esempi: Acidi grassi, colesterolo.
+Utilizzo: Membrane cellulari, riserva energetica.
+Acidi Nucleici:
+
+Definizione: DNA e RNA, polimeri di nucleotidi.
+Esempi: Adenina, citosina, timina.
+Utilizzo: Informazione genetica, sintesi proteica.
+Applicazione nella Progettazione di Composti Biologicamente Attivi:
+Riconoscimento del Bersaglio Biologico:
+
+Utilizzo: Comprendere le interazioni molecolari tra composti e bersagli biologici.
+Esempio: Struttura della proteina nel sito attivo.
+Modulazione dell Attività Biologica:
+
+Utilizzo: Guidare la progettazione di composti che modificano l attività biologica.
+Esempio: Sintesi di nuovi farmaci basati su analoghi strutturali.
+Ottimizzazione della Selettività e dell Affinità:
+
+Utilizzo: Migliorare l affinità e la selettività dei composti per i bersagli desiderati.
+Esempio: Sintesi di inibitori enzimatici più potenti e specifici.
+Valutazione della Sicurezza e dell Efficacia:
+
+Utilizzo: Testare la sicurezza e l efficacia dei nuovi composti in modelli biologici.
+Esempio: Studi preclinici e clinici per l approvazione dei farmaci.
+Conclusione:
+Le classi di composti organici e biomolecole forniscono le fondamenta per la chimica organica e biochimica, e sono cruciali per la progettazione e la sintesi di nuovi composti biologicamente attivi. L impiego di queste biomolecole nella progettazione di farmaci mira a ottimizzare l efficacia, la selettività e la sicurezza dei trattamenti farmacologici, influenzando positivamente il campo della medicina e della salute. '),
+  ('5', 3, 'Domanda: Come le reazioni di trasformazione degli amminoacidi e degli zuccheri influenzano la struttura e la funzione delle proteine e dei carboidrati, e quali sono le implicazioni di tali processi nella progettazione di nuovi farmaci e terapie? ', 'Risposta : Le reazioni di trasformazione degli amminoacidi e degli zuccheri hanno un impatto significativo sulla struttura e sulla funzione delle proteine e dei carboidrati. Questi processi sono cruciali per la progettazione di nuovi farmaci e terapie, poiché influenzano direttamente la loro attività biologica, la stabilità e la selettività.
+
+Amminoacidi:
+Reazioni di Trasformazione:
+Glicosilazione:
+
+Descrizione: Aggiunta di zuccheri (come il glucosio) ai residui di amminoacidi nelle proteine.
+Implicazioni: Regola la stabilità, la localizzazione subcellulare e l attività biologica delle proteine.
+Ossidazione e Riduzione:
+
+Descrizione: Modificazione dei gruppi funzionali degli amminoacidi.
+Implicazioni: Può alterare la struttura e la funzione delle proteine, influenzando la loro attività enzimatica e interazioni molecolari.
+Fosforilazione:
+
+Descrizione: Aggiunta di gruppi fosfato a residui di amminoacidi.
+Implicazioni: Regola l attività enzimatica e la trasduzione del segnale cellulare.
+Implicazioni nella Progettazione di Farmaci e Terapie:
+Modulazione dell Attività Enzimatica: Targetizzare la fosforilazione di specifici amminoacidi per regolare l attività enzimatica.
+Inibizione Selettiva: Sfruttare la glicosilazione per modulare la selettività e l efficacia dei farmaci.
+Zuccheri (Carboidrati):
+Reazioni di Trasformazione:
+Glicosilazione:
+
+Descrizione: Aggiunta di zuccheri ai lipidi e alle proteine.
+Implicazioni: Determina le interazioni cellulari, la protezione dalla degradazione e la funzione biologica dei carboidrati.
+Ossidazione e Riduzione:
+
+Descrizione: Modifica dei gruppi funzionali degli zuccheri.
+Implicazioni: Altera la struttura e la funzione dei carboidrati, influenzando la loro attività biologica.
+Sulfatazione:
+
+Descrizione: Aggiunta di gruppi solfato a residui di zucchero.
+Implicazioni: Regolazione dell adesione cellulare e delle interazioni proteina-glicano.
+Implicazioni nella Progettazione di Farmaci e Terapie:
+Targetizzazione di Interazioni Cellulare: Modulazione della glicosilazione per regolare le interazioni cellulare e lo sviluppo di terapie anticancro.
+Inibizione delle Reazioni di Glicosilazione: Sviluppo di inibitori per interferire con la glicosilazione patologica.
+Conclusione:
+Le reazioni di trasformazione degli amminoacidi e degli zuccheri giocano un ruolo cruciale nella struttura e nella funzione delle proteine e dei carboidrati. Questi processi sono essenziali nella progettazione di nuovi farmaci e terapie, permettendo di modulare l attività biologica, la selettività e la sicurezza dei trattamenti farmacologici. La comprensione di questi meccanismi è fondamentale per sviluppare strategie terapeutiche innovative e migliorare l efficacia dei farmaci esistenti. '),
   ('5', 3, 'Domanda: Quali sono i meccanismi di azione degli enzimi e come possono essere sfruttati nella produzione di biocatalizzatori e nella sintesi di composti di interesse biotecnologico? ', 'Risposta : risposta in elaborazione '),
   ('5', 3, 'Domanda: Come la struttura e la funzione degli acidi nucleici, come il DNA e l RNA, influenzano l espressione genica e la trasmissione delle informazioni genetiche, e quali sono le applicazioni pratiche di tali conoscenze nella biotecnologia? ', 'Risposta : risposta in elaborazione '),
   ('5', 3, 'Domanda: Quali sono le strategie di ingegneria delle proteine e degli acidi nucleici utilizzate per modificare le proprietà e le funzioni biologiche delle biomolecole, e quali sono le implicazioni di tali modifiche per lo sviluppo di nuovi trattamenti medici e terapie genetiche?', 'Risposta : risposta in elaborazione '),
@@ -141,16 +506,16 @@ INSERT INTO subject_qnas (schedule_ids, subject_id, question, answer) VALUES
   ('1,2', 6, 'Domanda: Illustra le leggi di Coulomb e spiega come descrivono l interazione tra cariche elettriche. Qual è l importanza pratica delle leggi di Coulomb nell analisi del comportamento delle cariche elettriche?', 'Risposta : risposta in elaborazione '),
   ('1,2', 6, 'Domanda: Descrivi la struttura di base di un atomo e spiega come è organizzato. Qual è il ruolo dei protoni, dei neutroni e degli elettroni nella struttura atomica e come sono distribuiti all interno di un atomo?', 'Risposta : risposta in elaborazione '),
   
-  ('3,4', 9, 'Domanda: Cos è un processo un progetto e un programma ed evidenzia la differenza tra questi ', 'Risposta : Un progetto riguarda la creazione di qualcosa di nuovo o l’implementazione di un cambiamento. Diversamente un processo ha lo scopo di creare valore eseguendo ripetutamente un’attività. In un progetto, gli obiettivi e i piani possono essere modificati dagli stakeholder. I processi, invece, sono procedure stabilite per il lavoro in corso e possono essere modificati, generalmente, solo con pianificazione e investimenti. In effetti, con qualsiasi processo che abbia un impatto significativo su un business, è idealmente necessario un progetto per cambiare quel processo.Nell’organizzazione aziendale la gestione dei processi è un elemento di vitale importanza per la crescita dell’azienda. Un processo aziendale è costituito da una serie di attività interconnesse tra loro per svolgere meglio la gestione operativa e funzionale dell’impresa. Attraverso i processi aziendali, l’azienda aumenta il valore delle risorse trasformandole in prodotti finali utili a migliorare la soddisfazione di un cliente. Ad esempio, in una sessione di business coaching, può essere osservato il percorso completo che fa una risorsa a partire dal suo ingresso in azienda (input), durante i passaggi intermedi nei diversi reparti, fino all’output di processo ovvero la vendita. Il processo aziendale è una realtà che si innesta nella direzione di un’azienda, un elemento indispensabile al fine di migliorare la produttività. Di seguito andremo a considerare cos’è, quali sono le sue fasi, come realizzarlo e le differenti classificazioni Un progetto è temporaneo in quanto ha un inizio e una fine nel tempo definiti, e quindi un ambito e risorse definiti. '),
+  ('3,4', 9, 'Domanda: Cos è un processo un progetto e un programma ed evidenzia la differenza tra questi ', 'Risposta : Un progetto riguarda la creazione di qualcosa di nuovo o l implementazione di un cambiamento. Diversamente un processo ha lo scopo di creare valore eseguendo ripetutamente un attività. In un progetto, gli obiettivi e i piani possono essere modificati dagli stakeholder. I processi, invece, sono procedure stabilite per il lavoro in corso e possono essere modificati, generalmente, solo con pianificazione e investimenti. In effetti, con qualsiasi processo che abbia un impatto significativo su un business, è idealmente necessario un progetto per cambiare quel processo.Nell organizzazione aziendale la gestione dei processi è un elemento di vitale importanza per la crescita dell azienda. Un processo aziendale è costituito da una serie di attività interconnesse tra loro per svolgere meglio la gestione operativa e funzionale dell impresa. Attraverso i processi aziendali, l azienda aumenta il valore delle risorse trasformandole in prodotti finali utili a migliorare la soddisfazione di un cliente. Ad esempio, in una sessione di business coaching, può essere osservato il percorso completo che fa una risorsa a partire dal suo ingresso in azienda (input), durante i passaggi intermedi nei diversi reparti, fino all output di processo ovvero la vendita. Il processo aziendale è una realtà che si innesta nella direzione di un azienda, un elemento indispensabile al fine di migliorare la produttività. Di seguito andremo a considerare cos’è, quali sono le sue fasi, come realizzarlo e le differenti classificazioni Un progetto è temporaneo in quanto ha un inizio e una fine nel tempo definiti, e quindi un ambito e risorse definiti. '),
   ('3,4', 9, 'Domanda: Illustra cos è un organigramma e per cosa è usato, aiutati facendo un esempio reale di organigramma ', 'Risposta :Un organigramma mostra la struttura interna di un organizzazione o società. I dipendenti e le posizioni sono rappresentati da caselle o altre forme, che a volte includono foto, informazioni di contatto, collegamenti a e-mail e pagine Web, icone e illustrazioni. Le linee dritte o a gomito collegano insieme i livelli.  Con il nostro software per organigrammi, viene creata una chiara rappresentazione visiva della gerarchia e dei ranghi delle persone, dei diversi lavori e dipartimenti che compongono l organizzazione. Organigramma gerarchico: questo è il tipo di organigramma più comune, e dà origine al sinonimo Grafico delle gerarchie. Una gerarchia è uno schema a forma di piramide, dove un gruppo o una persona è in cima, mentre quelli con meno potere sono sotto di loro. Pensa a una monarchia con un re o una regina nel punto più alto, oppure a un organizzazione con il CEO in cima. Con una gerarchia, i membri in genere comunicano con la persona a cui devono fare riferimento e con chiunque faccia riferimento direttamente a loro. Organigramma a matrice: in genere si riscontra solo quando i singoli individui hanno più di un manager. Ad esempio, un organizzazione potrebbe avere un team di grafici che fanno tutti capo al capo grafico. I grafici stanno anche lavorando ad altri progetti che sono probabilmente guidati da un project manager separato. In questo caso, i grafici avranno due manager. '),
   ('3,4', 9, 'Domanda: Spiega cos è il ciclo di vita di un processo, le sue fasi e fai un esempio pratico ', 'Risposta : La cooperazione consente a più processi di rendere parallela l esecuzione attraverso la CPU, condividere un servizio di rete, condividere una serie di informazioni. Durante il ciclo di vita di un processo, esso attraversa vari stati.NEW il programma è stato richiesto e aspetta di entrare in memoria centrale.READY il programma è diventato una serie di processi, è presente in MC, e sta aspettando di usare la CPU.RUNNING il processo è in esecuzione perchè gli è stato assegnato il processore e da questa situazione può uscire x: deve operare in I/O, è finito il time slaise, è terminato o arriva un processo di maggiore priorità.WAITING il processo si trova in questo stato quando aspetta di svolgere un operazione di I/O.TERMINATED il processo ha svolto tutti i suoi calcoli e rilascia tutte le risposte. '),
-  ('3,4', 9, 'Domanda: Parla dell importanza della divisione dei lavori in un progetto e dei ruoli specifici, fai qualche esempipo di ruolo , magari dal più alto gerarchicamente al piu basso ', 'Risposta : Chiarire ruoli e responsabilità per lo svolgimento di un progetto è un passaggio fondamentale della fase di pianificazione. Deve essere svolto con estrema cura in modo da coinvolgere le persone interessate ed ottenerne l’impegno a fare quanto concordato. Per alcuni ritrovarsi coinvolti in un progetto può costituire una novità; per altri può essere una prassi abituale. E’ quindi importante allineare tutti sul modo di operare e sul contributo richiesto a ciascuno. Una particolare attenzione deve essere posta nello strutturare il compito di quelle persone che non sono abituate a lavorare in un progetto. Esse conoscono molto bene le attività di routine e le procedure organizzative ma non necessariamente sono al corrente di come si deve operare all’interno di un progetto. E’ quindi importante chiarire ruoli e responsabilità nonché i compiti di ciascuno soprattutto se le persone tra di loro non si conoscono e non hanno mai lavorato su un progetto dello stesso tipo. Esistono diversi strumenti a disposizione per chiarire ruoli e responsabilità: Prima di tutto è importante che il project manager conosca i ruoli chiave necessari per lo svolgimento di un progetto. In tal senso, è opportuno che ogni organizzazione definisca la propria governance di gestione progetti. Una volta definito l’ambito del lavoro da svolgere, occorre predisporre in fase di pianificazione l’organigramma di progetto con indicati i ruoli e le linee di riporto (OBS di progetto). Insieme alla OBS deve essere prodotta anche la RAM di progetto che illustra le attività da svolgere ed i ruoli coinvolti in ciascuna attività. A questi documenti è opportuno affiancare anche la WBS di progetto che chiarisce ciò che dovrà essere prodotto e l’ambito del lavoro da svolgere. '),
-  ('3,4', 9, 'Domanda: Spiega cos è il BEP(Break Even Point) e come si calcola ', 'Risposta :Nella definizione più calzante per quanto riguarda la contabilità di un’azienda, il break even point, sovente abbreviato in BEP, è il punto in cui, su un grafico, i costi totali (spese) e le vendite totali (entrate) dell’impresa sono perfettamente uguali. Se i ricavi totali sono uguali ai costi totali, infatti, significa che l’azienda ha un profitto pari a zero. Se ne deduce che per un’azienda il punto di pareggio è una sorta di margine, che esprime il valore di ricavi necessario a coprire l’importo totale delle spese, fisse e variabili, durante un determinato periodo di tempo. Il break even point è dunque utile per determinare quante unità di prodotto devono essere vendute, a un determinato prezzo, per raggiungere almeno il punto in cui non si verifichino delle perdite. Come detto, la traduzione più appropriata della parola break even point è senza dubbio ‘punto di pareggio’; la break even analysis, ovvero l’analisi del punto di pareggio, è il metodo che serve per conoscere come modificare i livelli di output per raggiungere il BEP. La formula che permette di calcolare il break even point è quella che vede il punto di pareggio come il risultato della divisione tra i costi fissi e la sottrazione del costo variabile unitario al prezzo di vendita. Q, il valore da calcolare, è la quantità di equilibrio, per l’appunto la quantità di prodotto da produrre e vendere per pareggiare la struttura dei costi. In altri termini: Estesa: Break even point = Costi fissi/(Prezzo di vendita unitario – Costo variabile unitario; Con abbreviazioni: BEP = CF/(PV-CVU) Per leggere questa formula, occorre ovviamente conoscere i costi fissi; stabilire il prezzo di vendita unitario, ovvero il prezzo di vendita di una sola unità del prodotto; stabilire il costo variabile unitario, ossia il costo variabile applicato a quella singola unità di prodotto. '),
+  ('3,4', 9, 'Domanda: Parla dell importanza della divisione dei lavori in un progetto e dei ruoli specifici, fai qualche esempipo di ruolo , magari dal più alto gerarchicamente al piu basso ', 'Risposta : Chiarire ruoli e responsabilità per lo svolgimento di un progetto è un passaggio fondamentale della fase di pianificazione. Deve essere svolto con estrema cura in modo da coinvolgere le persone interessate ed ottenerne l impegno a fare quanto concordato. Per alcuni ritrovarsi coinvolti in un progetto può costituire una novità; per altri può essere una prassi abituale. E’ quindi importante allineare tutti sul modo di operare e sul contributo richiesto a ciascuno. Una particolare attenzione deve essere posta nello strutturare il compito di quelle persone che non sono abituate a lavorare in un progetto. Esse conoscono molto bene le attività di routine e le procedure organizzative ma non necessariamente sono al corrente di come si deve operare all interno di un progetto. E’ quindi importante chiarire ruoli e responsabilità nonché i compiti di ciascuno soprattutto se le persone tra di loro non si conoscono e non hanno mai lavorato su un progetto dello stesso tipo. Esistono diversi strumenti a disposizione per chiarire ruoli e responsabilità: Prima di tutto è importante che il project manager conosca i ruoli chiave necessari per lo svolgimento di un progetto. In tal senso, è opportuno che ogni organizzazione definisca la propria governance di gestione progetti. Una volta definito l ambito del lavoro da svolgere, occorre predisporre in fase di pianificazione l organigramma di progetto con indicati i ruoli e le linee di riporto (OBS di progetto). Insieme alla OBS deve essere prodotta anche la RAM di progetto che illustra le attività da svolgere ed i ruoli coinvolti in ciascuna attività. A questi documenti è opportuno affiancare anche la WBS di progetto che chiarisce ciò che dovrà essere prodotto e l ambito del lavoro da svolgere. '),
+  ('3,4', 9, 'Domanda: Spiega cos è il BEP(Break Even Point) e come si calcola ', 'Risposta :Nella definizione più calzante per quanto riguarda la contabilità di un azienda, il break even point, sovente abbreviato in BEP, è il punto in cui, su un grafico, i costi totali (spese) e le vendite totali (entrate) dell impresa sono perfettamente uguali. Se i ricavi totali sono uguali ai costi totali, infatti, significa che l azienda ha un profitto pari a zero. Se ne deduce che per un azienda il punto di pareggio è una sorta di margine, che esprime il valore di ricavi necessario a coprire l importo totale delle spese, fisse e variabili, durante un determinato periodo di tempo. Il break even point è dunque utile per determinare quante unità di prodotto devono essere vendute, a un determinato prezzo, per raggiungere almeno il punto in cui non si verifichino delle perdite. Come detto, la traduzione più appropriata della parola break even point è senza dubbio ‘punto di pareggio’; la break even analysis, ovvero l analisi del punto di pareggio, è il metodo che serve per conoscere come modificare i livelli di output per raggiungere il BEP. La formula che permette di calcolare il break even point è quella che vede il punto di pareggio come il risultato della divisione tra i costi fissi e la sottrazione del costo variabile unitario al prezzo di vendita. Q, il valore da calcolare, è la quantità di equilibrio, per l appunto la quantità di prodotto da produrre e vendere per pareggiare la struttura dei costi. In altri termini: Estesa: Break even point = Costi fissi/(Prezzo di vendita unitario – Costo variabile unitario; Con abbreviazioni: BEP = CF/(PV-CVU) Per leggere questa formula, occorre ovviamente conoscere i costi fissi; stabilire il prezzo di vendita unitario, ovvero il prezzo di vendita di una sola unità del prodotto; stabilire il costo variabile unitario, ossia il costo variabile applicato a quella singola unità di prodotto. '),
   
   ('3,4', 11, 'Domanda: Cos è un inconsistenza in un Database e cosa può portare? ', 'Risposta : L inconsistenza si ha quando due dati che rappresentano la stessa informazione hanno valori diversi. I DBMS(DataBase Management System) in genere controllano che i dati siano coerenti, modifiche non valute possono derivare da malfunzionamenti software o hardware. Un esempio è La ridondanza dei dati complica il processo di pulizia dei dati e di controllo della qualità. Identificare e risolvere problemi quali duplicati, imprecisioni o informazioni obsolete diventa più difficile quando esistono copie ridondanti di dati in diversi sistemi o posizioni. Rischi per la conformità e la sicurezza.  '),
-  ('3,4', 11, 'Domanda: Elencami gli elementi principali di un modello relazionale , menziona anche gerarchie e cardinalità ', 'Risposta : Il modello relazionale è un modello logico in cui la base di dati è vista come un insieme di tabelle su cui possono essere eseguite delle operazioni. Questo modello si chiama così perché è fondato sul concetto matematico di relazione tra insiemi di oggetti.Una relazione è un sottoinsieme di tutte le “uple” (righe) che si possono costruire prendendo il primo elemento del primo insieme, il secondo elemento del secondo insieme, e così via.Una relazione con n colonne si indica come una relazione di grado n, il nome delle colonne si dice attributo, l’insieme dei valori che possono essere assunti da un attributo si chiama dominio di quell’attributo e il numero delle uple (righe) che compongono una tabella (chiamate anche tuple) si chiama cardinalità della relazione.La relazione rappresenta un’entità, ogni upla rappresenta un’istanza dell’entità, le colonne contengono i valori assunti dagli attributi delle entità.La chiave della relazione è un attributo (o una combinazione di attributi) che identifica univocamente le uple all’interno della relazione, cioè ogni riga della tabella possiede valori diversi per l’attributo (o gli attributi) chiave.Il modello relazionale di un database è un insieme di tabelle sulle quali si possono effettuare operazioni, e tra le quali possono essere stabilite associazioni.Requisiti fondamentali del modello relazionale:1. Tutte le righe della tabella contengono lo stesso numero di colonne, corrispondenti agli attributi;2. Gli attributi rappresentano informazioni elementari, non scomponibili ulteriormente, cioè non ci sono campi di gruppo che contengono per ogni riga un insieme di valori invece di un solo valore;3. I valori assunti da un campo appartengono al dominio dei valori possibili per quel campo, e quindi sono valori omogenei tra loro, cioè dello stesso tipo;4. In una relazione, ogni riga è diversa da tutte le altre, cioè non ci possono essere due righe con gli stessi valori dei campi: questo significa che esiste un attributo o una combinazione di più attributi che identificano univocamente la upla e che assumono la funzione di chiave primaria; La chiave (formata da uno o più attributi) identifica la upla all interno della tabella. Per questo motivo, il modello relazionale fissa una regola di integrità sui dati, della integrità sull’entità, secondo la quale la chiave primaria non può avere un valore nullo.'),
-  ('3,4', 11, 'Domanda: Spiega come avviene la conversione tra modello ER a schema logico menzionando le funzioni delle chiavi esterne', 'Risposta : Ad ogni entità corrisponde una tabella con gli stessi attributi • gli attributi dell Entità costituiscono lo schema della tabella • L identificatore (semplice o composto) dell Entità diventa la chiave primaria della tabella • Gli attributi opzionali dell Entità sono attributi che possono assumere il valore NULL.   Per la traduzione di una Relazione: Passo 1: Vengono prima tradotte le Entità che partecipano alla RelazionePasso 2: Viene quindi tradotta la Relazione. Diverse regole di traduzione per Relazione binaria e ternaria Per una Relazione binaria occorre considerare la cardinalità massima e minima con cui le Entità partecipano alla Relazione'),
-  ('3,4', 11, 'Domanda: illustra la differenza tra HTTP e HTTPS e su quali porte del web girano ', 'Risposta : Http e https sono due varianti dello stesso protocollo di telecomunicazione, ovvero quell’insieme di regole che definisce i metodi comunicativi tra due o più entità. Essi sono molto utilizzati durante la navigazione web medianti i più conosciuti browser, come Google Chrome, Microsoft Edge e Safari. La principale differenza tra http (l’acronimo di HyperText Transfer Protocol) ed https (la cui s finale sta per Secure) risiede appunto nella maggiore sicurezza che quest’ultima variante di protocollo offre rispetto alla prima. Infatti, se nell’http lo scambio di risorse tra client e server avviene “in chiaro” (ovvero l’informazione che viene diffusa può essere letta da chi decide di intromettersi senza diritto nello scambio dei dati), nell’https la comunicazione è protetta grazie all’impiego di determinati certificati (come quello SSL, acronimo di Secure Socket Layer) che garantiscono gli aspetti seguenti:'),
+  ('3,4', 11, 'Domanda: Elencami gli elementi principali di un modello relazionale , menziona anche gerarchie e cardinalità ', 'Risposta : Il modello relazionale è un modello logico in cui la base di dati è vista come un insieme di tabelle su cui possono essere eseguite delle operazioni. Questo modello si chiama così perché è fondato sul concetto matematico di relazione tra insiemi di oggetti.Una relazione è un sottoinsieme di tutte le “uple” (righe) che si possono costruire prendendo il primo elemento del primo insieme, il secondo elemento del secondo insieme, e così via.Una relazione con n colonne si indica come una relazione di grado n, il nome delle colonne si dice attributo, l insieme dei valori che possono essere assunti da un attributo si chiama dominio di quell attributo e il numero delle uple (righe) che compongono una tabella (chiamate anche tuple) si chiama cardinalità della relazione.La relazione rappresenta un entità, ogni upla rappresenta un istanza dell entità, le colonne contengono i valori assunti dagli attributi delle entità.La chiave della relazione è un attributo (o una combinazione di attributi) che identifica univocamente le uple all interno della relazione, cioè ogni riga della tabella possiede valori diversi per l attributo (o gli attributi) chiave.Il modello relazionale di un database è un insieme di tabelle sulle quali si possono effettuare operazioni, e tra le quali possono essere stabilite associazioni.Requisiti fondamentali del modello relazionale:1. Tutte le righe della tabella contengono lo stesso numero di colonne, corrispondenti agli attributi;2. Gli attributi rappresentano informazioni elementari, non scomponibili ulteriormente, cioè non ci sono campi di gruppo che contengono per ogni riga un insieme di valori invece di un solo valore;3. I valori assunti da un campo appartengono al dominio dei valori possibili per quel campo, e quindi sono valori omogenei tra loro, cioè dello stesso tipo;4. In una relazione, ogni riga è diversa da tutte le altre, cioè non ci possono essere due righe con gli stessi valori dei campi: questo significa che esiste un attributo o una combinazione di più attributi che identificano univocamente la upla e che assumono la funzione di chiave primaria; La chiave (formata da uno o più attributi) identifica la upla all interno della tabella. Per questo motivo, il modello relazionale fissa una regola di integrità sui dati, della integrità sull entità, secondo la quale la chiave primaria non può avere un valore nullo.'),
+  ('3,4', 11, 'Domanda: Spiega come avviene la conversione tra modello ER a schema logico menzionando le funzioni delle chiavi esterne', 'Risposta : Ad ogni entità corrisponde una tabella con gli stessi attributi • gli attributi dell Entità costituiscono lo schema della tabella • L identificatore (semplice o composto) dell Entità diventa la chiave primaria della tabella • Gli attributi opzionali dell Entità sono attributi che possono assumere il valore NULL.   Per la traduzione di una Relazione: Passo 1: Vengono prima tradotte le Entità che partecipano alla Relazione Passo 2: Viene quindi tradotta la Relazione. Diverse regole di traduzione per Relazione binaria e ternaria Per una Relazione binaria occorre considerare la cardinalità massima e minima con cui le Entità partecipano alla Relazione'),
+  ('3,4', 11, 'Domanda: illustra la differenza tra HTTP e HTTPS e su quali porte del web girano ', 'Risposta : Http e https sono due varianti dello stesso protocollo di telecomunicazione, ovvero quell insieme di regole che definisce i metodi comunicativi tra due o più entità. Essi sono molto utilizzati durante la navigazione web medianti i più conosciuti browser, come Google Chrome, Microsoft Edge e Safari. La principale differenza tra http (l acronimo di HyperText Transfer Protocol) ed https (la cui s finale sta per Secure) risiede appunto nella maggiore sicurezza che quest’ultima variante di protocollo offre rispetto alla prima. Infatti, se nell http lo scambio di risorse tra client e server avviene “in chiaro” (ovvero l informazione che viene diffusa può essere letta da chi decide di intromettersi senza diritto nello scambio dei dati), nell https la comunicazione è protetta grazie all impiego di determinati certificati (come quello SSL, acronimo di Secure Socket Layer) che garantiscono gli aspetti seguenti:'),
   ('3,4', 11, 'Domanda: Spiega come si può usare il linguaggio PHP e come avviene la connesione da un codice ad un database ', 'Risposta :PHP (Hypertext Preprocessor) è un linguaggio di scripting ampiamente utilizzato per lo sviluppo di applicazioni web dinamiche e interattive. Ecco come si può utilizzare PHP e come avviene la connessione da un codice PHP a un database: Utilizzo di PHP:
 PHP viene incorporato direttamente nel codice HTML, consentendo agli sviluppatori di creare pagine web dinamiche.
 Con PHP è possibile eseguire operazioni come la gestione di form, l accesso a database, la gestione di sessioni utente e molto altro ancora. Connessione a un database da un codice PHP:
@@ -407,6 +772,7 @@ Durante la guerra, ci furono cambi di fronte principalmente dovuti alle mutazion
   Semplice – Iniziare a lavorare con Node.js è abbastanza facile. È una scelta obbligata per i principianti del web development. Con moltissimi tutorial e una grande community, iniziare è davvero molto facile.
 Scalabile – Offre una grande scalabilità per le applicazioni. Essendo single-threaded, Node.js è in grado di gestire un enorme numero di connessioni contemporanee con elevata portata.
 Velocità – L esecuzione non bloccante dei thread rende Node.js ancora più veloce ed efficiente.  ');
+
 
 
 
