@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link rel='icon' href='img/favicon.png' sizes='32x32' type='image/png'>
+  <title>Capolavoro - Homepage</title>
+  <link rel='stylesheet' href='css/style.css'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css'>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+</head>
+<body>
+  <main>
+    <!-- ! Homepage -->
+    <div id='homepage'>
+      <section>
+        <h1 class="titolo_grande">SIMULAZIONE DI COLLOQUI ORALI</h1>
+        <h1 class='text_center'>Hai bisogno di ripassare per l'orale di maturita?</h1>
+        <h2 class='text_center text_normal'>Clicca il tasto qui sotto, scegli il tuo indirizzo e seleziona le materie da ripassare</h2>
+        <i class='btn_scroll ti ti-chevron-down' onclick='scrollDown()'></i>
+      </section>
+      <section id='schoolSchedules'>
+        <h1 class='text_center'>Seleziona il tuo indirizzo e approfondisci la tua conoscenza</h1>
+        <div id='scheduleCards' class='schedule_cards'></div>
+      </section>
+    </div>
+
+    <!-- ! Select Subjects -->
+    <section id='selectSubjects'>
+      <form class='w_80'>
+        <h2 id='formTitle' class='no_mb'></h2>
+        <h3>Seleziona almeno 1 materia</h3>
+        <div id='formOpt' class='form_opt'></div>
+        <div class='form_actions'>
+          <button type='button' class='btn_action' onclick='goToHome()'>Indietro</button>
+          <button type='submit' class='btn_action' disabled>Continua</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- ! Question and Answer -->
+    <section id='questionAndAnswer'>
+      <form id='infoTest'>
+        <h2 id='testName' class='no_mb'></h2>
+        <h3>Tempo a disposizione: 30 Minuti</h3>
+        <div id='subjectsList'></div>
+        <div class='form_actions'>
+          <button type='button' class='btn_action' onclick='goToSelectSubject()'>Indietro</button>
+          <button type='submit' class='btn_action'>Inizia</button>
+        </div>
+      </form>
+      <form id='qnaTest'>
+        <h3 id='timerText'>Tempo rimasto: Loading</h3>
+        <div id='questionWrap'></div>
+      </form>
+    </section>
+  </main>
+
+  <script src='js/script.js'></script>
+</body>
+</html>
